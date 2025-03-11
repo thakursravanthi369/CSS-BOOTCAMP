@@ -1,0 +1,106 @@
+.containerOne{
+    font-size: larger;
+    background-color: aqua;
+    width: 450px;
+    margin: 50px auto;
+    color: rgb(11, 11, 11);
+    padding:120px 40px;
+    border-radius: 24px;
+}
+
+.btnOne{
+    background-color: white;
+    border: none;
+    padding: 16px 30px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.containerTwo{
+    font-size: larger;
+    width: 450px;
+    margin: 50px auto;
+    padding:50px 40px;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border-radius:80%;
+}
+
+.btnTwo{
+    color:blue;
+    background: none;
+    font-size: 20px;
+    border: none;
+    margin: 20px;
+}
+
+
+.containerThree{
+    border: 2px solid lightgray;
+    width: 550px;
+    margin: 5px auto;
+    border-radius: 14px;
+    font-size: large;
+ }
+
+.imgThree{
+    box-sizing: border-box;
+    width: 109%;
+    height: 800px;
+    padding-left:0.5px; 
+    border-radius: 10px;
+}
+
+.boxThree{
+   padding-left: 5px;
+}
+
+.btnThree{
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 16px 30px;
+    font-size: 20px;
+    color: blue;
+    margin: 10px;
+}
+
+.containerFour{
+    width: 350px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.inputFour{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius:120px;
+}
+
+.btnFour{
+    width: 80%;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+}
+
+.imgFour{
+    width: 300px;
+    height: 300px;
+    border-radius:600%;
+}
+
