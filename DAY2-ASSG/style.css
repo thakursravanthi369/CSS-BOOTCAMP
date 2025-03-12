@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.restaurant-info {
+    padding: 20px 0;
+}
+.restaurant-info h3 {
+    font-size: 33px;
+    padding-top: 10px;
+}
+.offer {
+    background: blue;
+    color: white;
+    padding: 9px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.time {
+    background: lightgray;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.banner {
+    position: relative;
+    color: black;
+    text-align: center; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.banner img {
+    width: 200%;
+}
+.banner-text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+button {
+    background: rgb(102, 188, 205);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:10px;
+}
+.search-container {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    height: 300px;
+    background: url(359x229_swo_event_ssff_menu_caribean_market_04.webp) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(221, 23, 23);
+    font-weight: bold;
+    border-radius: 60px;
+}
+.search-container h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    background: rgb(227, 40, 40);
+    padding: 10px;
+    border-radius: 60px;
+    width: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+.search-box select {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.profile-card {
+    color: white;
+    text-align: center;
+    background-image: url(mweb-indigo.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+.profile-card img {
+    width: 120px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
